@@ -33,7 +33,7 @@
 
     <div class="row">
         <div class="col">
-            <h2>
+            <h2 id="city">
                 Lisbon
             </h2>
         </div>
@@ -45,14 +45,15 @@
 
         <div class="row">
         <div class="col-6">
-    <h4>
+    <h4 id="description">
         Cloudy
     </h4>
     </div>
             <div class="col-6">
                 <h3>
-                    <span> 19°C
-                    </span>
+                <span id="temperature"> 19 
+                </span>
+                ºC
                 </h3>
             </div>
         </div>
@@ -63,14 +64,11 @@
         </div>
         <div class="col-6">
             <ul>
-                <li>
-            Precipitation : %
+            <li>
+            Humidity : <span id="humidity"> 10 </span>%
             </li>
             <li>
-            Humidity : %
-            </li>
-            <li>
-            Wind : km/h
+            Wind : <span id="wind"> 14 </span>km/h
             </li>
         </ul>
         </div>
@@ -79,4 +77,5 @@
  <a href="https://github.com/MarieAnge5/new-weather-app" target="_blank">Open-source code</a> by Marie Ange
 </div>
 </body>
+<script src="src/app.js"></script>
  </html>

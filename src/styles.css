@@ -54,3 +54,16 @@ button {
   font-size: 80px;
   color: #330867;
 }
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+  cursor: default;
+  text-decoration: none;
+}
+.active:hover {
+  text-decoration: none;
+}

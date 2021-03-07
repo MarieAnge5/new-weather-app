@@ -79,7 +79,7 @@ function displayForecast(response) {
             <strong>${Math.round(forecast.main.temp_min)}°</strong>
         </div>
         <div class="col-4">
-        <img src="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png" width="70"/>
+        <img src="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png" width="20"/>
         </div>
     </div>`; 
 

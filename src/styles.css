@@ -1,3 +1,6 @@
+body {
+  width: max-content;
+}
 .weather-app-wrapper {
   width: 400px;
   margin: 30px auto;

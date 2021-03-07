@@ -2,7 +2,7 @@ body {
   width: max-content;
 }
 .weather-app-wrapper {
-  width: 400px;
+  max-width: 400px;
   margin: 30px auto;
   font-family: arial;
 }

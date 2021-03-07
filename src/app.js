@@ -74,12 +74,12 @@ function displayForecast(response) {
            <div class="col-4">
             <span>
             <br />
-            ${Math.round(forecast.main.temp_max)}° |
+            ${Math.round(forecast.main.temp_max)}°|
             </span>
-            <strong> ${Math.round(forecast.main.temp_min)}° </strong>
+            <strong>${Math.round(forecast.main.temp_min)}°</strong>
         </div>
         <div class="col-4">
-        <img src="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png" width="100"/>
+        <img src="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png" width="70"/>
         </div>
     </div>`; 
 

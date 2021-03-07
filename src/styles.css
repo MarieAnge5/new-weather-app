@@ -1,11 +1,11 @@
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 400px;
   margin: 30px auto;
   font-family: arial;
 }
 
 .weather-app {
-  padding: 40px;
+  padding: 30px;
   border: solid 1px grey;
   border-radius: 10px;
   font-family: arial;
@@ -26,26 +26,24 @@ ul {
 }
 li {
   list-style: none;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 h2 {
   padding-top: 20px;
-  font-size: 38px;
+  font-size: 50px;
+  padding-bottom: 15px;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 h4 {
-  font-size: 28px;
+  font-size: 26px;
   text-transform: capitalize;
-}
-
-.fas.fa-cloud.today {
-  font-size: 80px;
-  color: #330867;
+  font-style: italic;
 }
 
 a {
@@ -64,10 +62,10 @@ a {
 
 header {
   border: 1px solid rgb(209, 209, 209);
-  padding-left: 50px;
+  padding-left: 30px;
   max-width: 515px;
   border-radius: 10px;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .link {
